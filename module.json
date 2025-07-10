@@ -2,12 +2,19 @@
   "id": "yan-data",
   "title": "Yan's Curated Data",
   "version": "1.0.0",
+  "manifest": "https://github.com/YBraga35/yan-data/releases/latest/download/module.json",
+  "download": "https://github.com/YBraga35/yan-data/archive/refs/tags/v1.0.0.zip",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315"
   },
   "relationships": {
     "requires": [
+      {
+        "id": "yan-assets",
+        "type": "module",
+        "manifest": "https://github.com/YBraga35/yan-assets/releases/latest/download/module.json"
+      },
       {
         "id": "levels",
         "type": "module"
@@ -54,5 +61,1051 @@
       "url": "https://github.com/YBraga35",
       "discord": "yan_braga35"
     }
-  ]
+  ],
+  "packs": [
+    {
+        "name":  "tomcartos-into-the-wilds-arctic-bundle-01-maps",
+        "label":  "TomCartos / Maps",
+        "path":  "modules/tomcartos-into-the-wilds-arctic-bundle-01/Packs/maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "tomcartos-into-the-wilds-arctic-bundle-02-maps",
+        "label":  "TomCartos / Maps",
+        "path":  "modules/tomcartos-into-the-wilds-arctic-bundle-02/Packs/maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "tomcartos-into-the-wilds-desert-bundle-01-maps",
+        "label":  "TomCartos / Maps",
+        "path":  "modules/tomcartos-into-the-wilds-desert-bundle-01/Packs/maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "tomcartos-into-the-wilds-desert-bundle-02-maps",
+        "label":  "TomCartos / Maps",
+        "path":  "modules/tomcartos-into-the-wilds-desert-bundle-02/Packs/maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "tomcartos-into-the-wilds-jungle-bundle-01-maps",
+        "label":  "TomCartos / Maps",
+        "path":  "modules/tomcartos-into-the-wilds-jungle-bundle-01/Packs/maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "tomcartos-into-the-wilds-rural-bundle-01-maps",
+        "label":  "TomCartos / Maps",
+        "path":  "modules/tomcartos-into-the-wilds-rural-bundle-01/Packs/maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "tomcartos-into-the-wilds-swamp-bundle-01-maps",
+        "label":  "TomCartos / Maps",
+        "path":  "modules/tomcartos-into-the-wilds-swamp-bundle-01/Packs/maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "tomcartos-into-the-wilds-underdark-bundle-01-maps",
+        "label":  "TomCartos / Maps",
+        "path":  "modules/tomcartos-into-the-wilds-underdark-bundle-01/Packs/maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "tomcartos-into-the-wilds-urban-03-into-the-wilds-urban-03",
+        "label":  "TomCartos / Into The Wilds Urban 03",
+        "path":  "modules/tomcartos-into-the-wilds-urban-03/packs/into-the-wilds-urban-03",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "tomcartos-itw-castles-03-into-the-wilds-castles-03",
+        "label":  "TomCartos / Into The Wilds Castles 03",
+        "path":  "modules/tomcartos-itw-castles-03/packs/into-the-wilds-castles-03",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "tomcartos-itw-castles-04-into-the-wilds-castles-04",
+        "label":  "TomCartos / Into The Wilds Castles 04",
+        "path":  "modules/tomcartos-itw-castles-04/packs/into-the-wilds-castles-04",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "tomcartos-itw-houses-and-homes-04-into-the-wilds-houses-and-homes-04",
+        "label":  "TomCartos / Into The Wilds Houses And Homes 04",
+        "path":  "modules/tomcartos-itw-houses-and-homes-04/packs/into-the-wilds-houses-and-homes-04",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "tomcartos-itw-rural-02-into-the-wilds-rural-02",
+        "label":  "TomCartos / Into The Wilds Rural 02",
+        "path":  "modules/tomcartos-itw-rural-02/packs/into-the-wilds-rural-02",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "tomcartos-shops-and-traders-04-shops-and-traders-04",
+        "label":  "TomCartos / Shops And Traders 04",
+        "path":  "modules/tomcartos-shops-and-traders-04/packs/shops-and-traders-04",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "tomcartos-shops-and-traders-04-shops-and-traders-04-journal",
+        "label":  "TomCartos / Shops And Traders 04 Journal",
+        "path":  "modules/tomcartos-shops-and-traders-04/packs/shops-and-traders-04-journal",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-astral-mad-astral-actors",
+        "label":  "The MAD Cartographer / Mad Astral / Actors",
+        "path":  "modules/mad-astral/packs/mad-astral-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-astral-mad-astral-items",
+        "label":  "The MAD Cartographer / Mad Astral / Items",
+        "path":  "modules/mad-astral/packs/mad-astral-items",
+        "type":  "Item",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-astral-mad-astral-journals",
+        "label":  "The MAD Cartographer / Mad Astral / Journals",
+        "path":  "modules/mad-astral/packs/mad-astral-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-astral-mad-astral-maps",
+        "label":  "The MAD Cartographer / Mad Astral / Maps",
+        "path":  "modules/mad-astral/packs/mad-astral-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-badlands-mad-badlands-journals",
+        "label":  "The MAD Cartographer / Mad Badlands / Journals",
+        "path":  "modules/mad-badlands/packs/mad-badlands-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-badlands-mad-badlands-maps",
+        "label":  "The MAD Cartographer / Mad Badlands / Maps",
+        "path":  "modules/mad-badlands/packs/mad-badlands-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-buildabase-mad-buildabase-actors",
+        "label":  "The MAD Cartographer / Mad Buildabase / Actors",
+        "path":  "modules/mad-buildabase/packs/mad-buildabase-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-buildabase-mad-buildabase-journals",
+        "label":  "The MAD Cartographer / Mad Buildabase / Journals",
+        "path":  "modules/mad-buildabase/packs/mad-buildabase-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-buildabase-mad-buildabase-macros",
+        "label":  "The MAD Cartographer / Mad Buildabase / Macros",
+        "path":  "modules/mad-buildabase/packs/mad-buildabase-macros",
+        "type":  "Macro",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-buildabase-mad-buildabase-maps",
+        "label":  "The MAD Cartographer / Mad Buildabase / Maps",
+        "path":  "modules/mad-buildabase/packs/mad-buildabase-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-caverns-mad-caverns-journals",
+        "label":  "The MAD Cartographer / Mad Caverns / Journals",
+        "path":  "modules/mad-caverns/packs/mad-caverns-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-caverns-mad-caverns-maps",
+        "label":  "The MAD Cartographer / Mad Caverns / Maps",
+        "path":  "modules/mad-caverns/packs/mad-caverns-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-classicdun-mad-classicdun-actors",
+        "label":  "The MAD Cartographer / Mad Classicdun / Actors",
+        "path":  "modules/mad-classicdun/packs/mad-classicdun-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-classicdun-mad-classicdun-journals",
+        "label":  "The MAD Cartographer / Mad Classicdun / Journals",
+        "path":  "modules/mad-classicdun/packs/mad-classicdun-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-classicdun-mad-classicdun-maps",
+        "label":  "The MAD Cartographer / Mad Classicdun / Maps",
+        "path":  "modules/mad-classicdun/packs/mad-classicdun-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-classicdun-2-mad-classicdun-2-actors",
+        "label":  "The MAD Cartographer / Mad Classicdun 2 / Actors",
+        "path":  "modules/mad-classicdun-2/packs/mad-classicdun-2-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-classicdun-2-mad-classicdun-2-journals",
+        "label":  "The MAD Cartographer / Mad Classicdun 2 / Journals",
+        "path":  "modules/mad-classicdun-2/packs/mad-classicdun-2-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-classicdun-2-mad-classicdun-2-maps",
+        "label":  "The MAD Cartographer / Mad Classicdun 2 / Maps",
+        "path":  "modules/mad-classicdun-2/packs/mad-classicdun-2-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-craftycollection-mad-craftycollection-journals",
+        "label":  "The MAD Cartographer / Mad Craftycollection / Journals",
+        "path":  "modules/mad-craftycollection/packs/mad-craftycollection-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-craftycollection-mad-craftycollection-maps",
+        "label":  "The MAD Cartographer / Mad Craftycollection / Maps",
+        "path":  "modules/mad-craftycollection/packs/mad-craftycollection-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-curseoffrost-mad-curseoffrost-journals",
+        "label":  "The MAD Cartographer / Mad Curseoffrost / Journals",
+        "path":  "modules/mad-curseoffrost/packs/mad-curseoffrost-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-curseoffrost-mad-curseoffrost-maps",
+        "label":  "The MAD Cartographer / Mad Curseoffrost / Maps",
+        "path":  "modules/mad-curseoffrost/packs/mad-curseoffrost-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-deserts-mad-deserts-actors",
+        "label":  "The MAD Cartographer / Mad Deserts / Actors",
+        "path":  "modules/mad-deserts/packs/mad-deserts-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-deserts-mad-deserts-items",
+        "label":  "The MAD Cartographer / Mad Deserts / Items",
+        "path":  "modules/mad-deserts/packs/mad-deserts-items",
+        "type":  "Item",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-deserts-mad-deserts-journals",
+        "label":  "The MAD Cartographer / Mad Deserts / Journals",
+        "path":  "modules/mad-deserts/packs/mad-deserts-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-deserts-mad-deserts-maps",
+        "label":  "The MAD Cartographer / Mad Deserts / Maps",
+        "path":  "modules/mad-deserts/packs/mad-deserts-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-downtown-mad-downtown-actors",
+        "label":  "The MAD Cartographer / Mad Downtown / Actors",
+        "path":  "modules/mad-downtown/packs/mad-downtown-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-downtown-mad-downtown-journals",
+        "label":  "The MAD Cartographer / Mad Downtown / Journals",
+        "path":  "modules/mad-downtown/packs/mad-downtown-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-downtown-mad-downtown-maps",
+        "label":  "The MAD Cartographer / Mad Downtown / Maps",
+        "path":  "modules/mad-downtown/packs/mad-downtown-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-dreadeddomains-mad-dreadeddomains-actors",
+        "label":  "The MAD Cartographer / Mad Dreadeddomains / Actors",
+        "path":  "modules/mad-dreadeddomains/packs/mad-dreadeddomains-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-dreadeddomains-mad-dreadeddomains-journals",
+        "label":  "The MAD Cartographer / Mad Dreadeddomains / Journals",
+        "path":  "modules/mad-dreadeddomains/packs/mad-dreadeddomains-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-dreadeddomains-mad-dreadeddomains-maps",
+        "label":  "The MAD Cartographer / Mad Dreadeddomains / Maps",
+        "path":  "modules/mad-dreadeddomains/packs/mad-dreadeddomains-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-dreadeddomains2-mad-dreadeddomains2-actors",
+        "label":  "The MAD Cartographer / Mad Dreadeddomains2 / Actors",
+        "path":  "modules/mad-dreadeddomains2/packs/mad-dreadeddomains2-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-dreadeddomains2-mad-dreadeddomains2-items",
+        "label":  "The MAD Cartographer / Mad Dreadeddomains2 / Items",
+        "path":  "modules/mad-dreadeddomains2/packs/mad-dreadeddomains2-items",
+        "type":  "Item",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-dreadeddomains2-mad-dreadeddomains2-journals",
+        "label":  "The MAD Cartographer / Mad Dreadeddomains2 / Journals",
+        "path":  "modules/mad-dreadeddomains2/packs/mad-dreadeddomains2-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-dreadeddomains2-mad-dreadeddomains2-maps",
+        "label":  "The MAD Cartographer / Mad Dreadeddomains2 / Maps",
+        "path":  "modules/mad-dreadeddomains2/packs/mad-dreadeddomains2-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-dungeondelve-mad-dungeondelve-actors",
+        "label":  "The MAD Cartographer / Mad Dungeondelve / Actors",
+        "path":  "modules/mad-dungeondelve/packs/mad-dungeondelve-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-dungeondelve-mad-dungeondelve-items",
+        "label":  "The MAD Cartographer / Mad Dungeondelve / Items",
+        "path":  "modules/mad-dungeondelve/packs/mad-dungeondelve-items",
+        "type":  "Item",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-dungeondelve-mad-dungeondelve-journals",
+        "label":  "The MAD Cartographer / Mad Dungeondelve / Journals",
+        "path":  "modules/mad-dungeondelve/packs/mad-dungeondelve-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-dungeondelve-mad-dungeondelve-maps",
+        "label":  "The MAD Cartographer / Mad Dungeondelve / Maps",
+        "path":  "modules/mad-dungeondelve/packs/mad-dungeondelve-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-endlesswiz-mad-endlesswiz-actors",
+        "label":  "The MAD Cartographer / Mad Endlesswiz / Actors",
+        "path":  "modules/mad-endlesswiz/packs/mad-endlesswiz-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-endlesswiz-mad-endlesswiz-items",
+        "label":  "The MAD Cartographer / Mad Endlesswiz / Items",
+        "path":  "modules/mad-endlesswiz/packs/mad-endlesswiz-items",
+        "type":  "Item",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-endlesswiz-mad-endlesswiz-journals",
+        "label":  "The MAD Cartographer / Mad Endlesswiz / Journals",
+        "path":  "modules/mad-endlesswiz/packs/mad-endlesswiz-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-endlesswiz-mad-endlesswiz-maps",
+        "label":  "The MAD Cartographer / Mad Endlesswiz / Maps",
+        "path":  "modules/mad-endlesswiz/packs/mad-endlesswiz-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-faecarnival-mad-faecarnival-actors",
+        "label":  "The MAD Cartographer / Mad Faecarnival / Actors",
+        "path":  "modules/mad-faecarnival/packs/mad-faecarnival-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-faecarnival-mad-faecarnival-journals",
+        "label":  "The MAD Cartographer / Mad Faecarnival / Journals",
+        "path":  "modules/mad-faecarnival/packs/mad-faecarnival-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-faecarnival-mad-faecarnival-maps",
+        "label":  "The MAD Cartographer / Mad Faecarnival / Maps",
+        "path":  "modules/mad-faecarnival/packs/mad-faecarnival-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-faewilds-mad-faewilds-journals",
+        "label":  "The MAD Cartographer / Mad Faewilds / Journals",
+        "path":  "modules/mad-faewilds/packs/mad-faewilds-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-faewilds-mad-faewilds-maps",
+        "label":  "The MAD Cartographer / Mad Faewilds / Maps",
+        "path":  "modules/mad-faewilds/packs/mad-faewilds-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-farmlife-mad-farmlife-actors",
+        "label":  "The MAD Cartographer / Mad Farmlife / Actors",
+        "path":  "modules/mad-farmlife/packs/mad-farmlife-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-farmlife-mad-farmlife-journals",
+        "label":  "The MAD Cartographer / Mad Farmlife / Journals",
+        "path":  "modules/mad-farmlife/packs/mad-farmlife-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-farmlife-mad-farmlife-maps",
+        "label":  "The MAD Cartographer / Mad Farmlife / Maps",
+        "path":  "modules/mad-farmlife/packs/mad-farmlife-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-forestwild-mad-forestwild-journals",
+        "label":  "The MAD Cartographer / Mad Forestwild / Journals",
+        "path":  "modules/mad-forestwild/packs/mad-forestwild-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-forestwild-mad-forestwild-maps",
+        "label":  "The MAD Cartographer / Mad Forestwild / Maps",
+        "path":  "modules/mad-forestwild/packs/mad-forestwild-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-freecontent-mad-freecontent-actors",
+        "label":  "The MAD Cartographer / Mad Freecontent / Actors",
+        "path":  "modules/mad-freecontent/packs/mad-freecontent-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-freecontent-mad-freecontent-journals",
+        "label":  "The MAD Cartographer / Mad Freecontent / Journals",
+        "path":  "modules/mad-freecontent/packs/mad-freecontent-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-freecontent-mad-freecontent-maps",
+        "label":  "The MAD Cartographer / Mad Freecontent / Maps",
+        "path":  "modules/mad-freecontent/packs/mad-freecontent-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-freecontent-mad-freecontent-playlists",
+        "label":  "The MAD Cartographer / Mad Freecontent / Playlists",
+        "path":  "modules/mad-freecontent/packs/mad-freecontent-playlists",
+        "type":  "Playlist",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-heists-mad-heists-actors",
+        "label":  "The MAD Cartographer / Mad Heists / Actors",
+        "path":  "modules/mad-heists/packs/mad-heists-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-heists-mad-heists-journals",
+        "label":  "The MAD Cartographer / Mad Heists / Journals",
+        "path":  "modules/mad-heists/packs/mad-heists-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-heists-mad-heists-maps",
+        "label":  "The MAD Cartographer / Mad Heists / Maps",
+        "path":  "modules/mad-heists/packs/mad-heists-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-hellscapes-mad-hellscapes-actors",
+        "label":  "The MAD Cartographer / Mad Hellscapes / Actors",
+        "path":  "modules/mad-hellscapes/packs/mad-hellscapes-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-hellscapes-mad-hellscapes-journals",
+        "label":  "The MAD Cartographer / Mad Hellscapes / Journals",
+        "path":  "modules/mad-hellscapes/packs/mad-hellscapes-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-hellscapes-mad-hellscapes-maps",
+        "label":  "The MAD Cartographer / Mad Hellscapes / Maps",
+        "path":  "modules/mad-hellscapes/packs/mad-hellscapes-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-hellscapes-mad-tropics-actors",
+        "label":  "The MAD Cartographer / Mad Tropics / Actors",
+        "path":  "modules/mad-hellscapes/packs/mad-tropics-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-hellscapes-mad-tropics-journals",
+        "label":  "The MAD Cartographer / Mad Tropics / Journals",
+        "path":  "modules/mad-hellscapes/packs/mad-tropics-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-hellscapes-mad-tropics-maps",
+        "label":  "The MAD Cartographer / Mad Tropics / Maps",
+        "path":  "modules/mad-hellscapes/packs/mad-tropics-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-lairs-mad-lairs-journals",
+        "label":  "The MAD Cartographer / Mad Lairs / Journals",
+        "path":  "modules/mad-lairs/packs/mad-lairs-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-lairs-mad-lairs-maps",
+        "label":  "The MAD Cartographer / Mad Lairs / Maps",
+        "path":  "modules/mad-lairs/packs/mad-lairs-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-modcaverns-mad-modcaverns-actors",
+        "label":  "The MAD Cartographer / Mad Modcaverns / Actors",
+        "path":  "modules/mad-modcaverns/packs/mad-modcaverns-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-modcaverns-mad-modcaverns-journals",
+        "label":  "The MAD Cartographer / Mad Modcaverns / Journals",
+        "path":  "modules/mad-modcaverns/packs/mad-modcaverns-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-modcaverns-mad-modcaverns-maps",
+        "label":  "The MAD Cartographer / Mad Modcaverns / Maps",
+        "path":  "modules/mad-modcaverns/packs/mad-modcaverns-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-moddungeons-mad-moddungeons-actors",
+        "label":  "The MAD Cartographer / Mad Moddungeons / Actors",
+        "path":  "modules/mad-moddungeons/packs/mad-moddungeons-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-moddungeons-mad-moddungeons-journals",
+        "label":  "The MAD Cartographer / Mad Moddungeons / Journals",
+        "path":  "modules/mad-moddungeons/packs/mad-moddungeons-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-moddungeons-mad-moddungeons-maps",
+        "label":  "The MAD Cartographer / Mad Moddungeons / Maps",
+        "path":  "modules/mad-moddungeons/packs/mad-moddungeons-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-mythicgreece-mad-mythicgreece-journals",
+        "label":  "The MAD Cartographer / Mad Mythicgreece / Journals",
+        "path":  "modules/mad-mythicgreece/packs/mad-mythicgreece-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-mythicgreece-mad-mythicgreece-maps",
+        "label":  "The MAD Cartographer / Mad Mythicgreece / Maps",
+        "path":  "modules/mad-mythicgreece/packs/mad-mythicgreece-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-oceans-mad-oceans-actors",
+        "label":  "The MAD Cartographer / Mad Oceans / Actors",
+        "path":  "modules/mad-oceans/packs/mad-oceans-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-oceans-mad-oceans-journals",
+        "label":  "The MAD Cartographer / Mad Oceans / Journals",
+        "path":  "modules/mad-oceans/packs/mad-oceans-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-oceans-mad-oceans-maps",
+        "label":  "The MAD Cartographer / Mad Oceans / Maps",
+        "path":  "modules/mad-oceans/packs/mad-oceans-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix1-mad-picknmix-actors",
+        "label":  "The MAD Cartographer / Mad Picknmix / Actors",
+        "path":  "modules/mad-picknmix1/packs/mad-picknmix-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix1-mad-picknmix-journals",
+        "label":  "The MAD Cartographer / Mad Picknmix / Journals",
+        "path":  "modules/mad-picknmix1/packs/mad-picknmix-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix1-mad-picknmix-maps",
+        "label":  "The MAD Cartographer / Mad Picknmix / Maps",
+        "path":  "modules/mad-picknmix1/packs/mad-picknmix-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix1-mad-picknmix1-actors",
+        "label":  "The MAD Cartographer / Mad Picknmix1 / Actors",
+        "path":  "modules/mad-picknmix1/packs/mad-picknmix1-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix1-mad-picknmix1-journals",
+        "label":  "The MAD Cartographer / Mad Picknmix1 / Journals",
+        "path":  "modules/mad-picknmix1/packs/mad-picknmix1-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix1-mad-picknmix1-maps",
+        "label":  "The MAD Cartographer / Mad Picknmix1 / Maps",
+        "path":  "modules/mad-picknmix1/packs/mad-picknmix1-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix2-mad-picknmix-actors",
+        "label":  "The MAD Cartographer / Mad Picknmix / Actors",
+        "path":  "modules/mad-picknmix2/packs/mad-picknmix-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix2-mad-picknmix-journals",
+        "label":  "The MAD Cartographer / Mad Picknmix / Journals",
+        "path":  "modules/mad-picknmix2/packs/mad-picknmix-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix2-mad-picknmix-maps",
+        "label":  "The MAD Cartographer / Mad Picknmix / Maps",
+        "path":  "modules/mad-picknmix2/packs/mad-picknmix-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix2-mad-picknmix2-actors",
+        "label":  "The MAD Cartographer / Mad Picknmix2 / Actors",
+        "path":  "modules/mad-picknmix2/packs/mad-picknmix2-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix2-mad-picknmix2-journals",
+        "label":  "The MAD Cartographer / Mad Picknmix2 / Journals",
+        "path":  "modules/mad-picknmix2/packs/mad-picknmix2-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix2-mad-picknmix2-maps",
+        "label":  "The MAD Cartographer / Mad Picknmix2 / Maps",
+        "path":  "modules/mad-picknmix2/packs/mad-picknmix2-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix3-mad-picknmix-actors",
+        "label":  "The MAD Cartographer / Mad Picknmix / Actors",
+        "path":  "modules/mad-picknmix3/packs/mad-picknmix-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix3-mad-picknmix-journals",
+        "label":  "The MAD Cartographer / Mad Picknmix / Journals",
+        "path":  "modules/mad-picknmix3/packs/mad-picknmix-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix3-mad-picknmix-maps",
+        "label":  "The MAD Cartographer / Mad Picknmix / Maps",
+        "path":  "modules/mad-picknmix3/packs/mad-picknmix-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix3-mad-picknmix3-actors",
+        "label":  "The MAD Cartographer / Mad Picknmix3 / Actors",
+        "path":  "modules/mad-picknmix3/packs/mad-picknmix3-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix3-mad-picknmix3-journals",
+        "label":  "The MAD Cartographer / Mad Picknmix3 / Journals",
+        "path":  "modules/mad-picknmix3/packs/mad-picknmix3-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix3-mad-picknmix3-maps",
+        "label":  "The MAD Cartographer / Mad Picknmix3 / Maps",
+        "path":  "modules/mad-picknmix3/packs/mad-picknmix3-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix4-mad-picknmix-actors",
+        "label":  "The MAD Cartographer / Mad Picknmix / Actors",
+        "path":  "modules/mad-picknmix4/packs/mad-picknmix-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix4-mad-picknmix-journals",
+        "label":  "The MAD Cartographer / Mad Picknmix / Journals",
+        "path":  "modules/mad-picknmix4/packs/mad-picknmix-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix4-mad-picknmix-maps",
+        "label":  "The MAD Cartographer / Mad Picknmix / Maps",
+        "path":  "modules/mad-picknmix4/packs/mad-picknmix-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix4-mad-picknmix4-actors",
+        "label":  "The MAD Cartographer / Mad Picknmix4 / Actors",
+        "path":  "modules/mad-picknmix4/packs/mad-picknmix4-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix4-mad-picknmix4-journals",
+        "label":  "The MAD Cartographer / Mad Picknmix4 / Journals",
+        "path":  "modules/mad-picknmix4/packs/mad-picknmix4-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix4-mad-picknmix4-maps",
+        "label":  "The MAD Cartographer / Mad Picknmix4 / Maps",
+        "path":  "modules/mad-picknmix4/packs/mad-picknmix4-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix5-mad-picknmix5-actors",
+        "label":  "The MAD Cartographer / Mad Picknmix5 / Actors",
+        "path":  "modules/mad-picknmix5/packs/mad-picknmix5-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix5-mad-picknmix5-journals",
+        "label":  "The MAD Cartographer / Mad Picknmix5 / Journals",
+        "path":  "modules/mad-picknmix5/packs/mad-picknmix5-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix5-mad-picknmix5-maps",
+        "label":  "The MAD Cartographer / Mad Picknmix5 / Maps",
+        "path":  "modules/mad-picknmix5/packs/mad-picknmix5-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix6-mad-picknmix6-actors",
+        "label":  "The MAD Cartographer / Mad Picknmix6 / Actors",
+        "path":  "modules/mad-picknmix6/packs/mad-picknmix6-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix6-mad-picknmix6-journals",
+        "label":  "The MAD Cartographer / Mad Picknmix6 / Journals",
+        "path":  "modules/mad-picknmix6/packs/mad-picknmix6-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-picknmix6-mad-picknmix6-maps",
+        "label":  "The MAD Cartographer / Mad Picknmix6 / Maps",
+        "path":  "modules/mad-picknmix6/packs/mad-picknmix6-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-strongholds-mad-strongholds-journals",
+        "label":  "The MAD Cartographer / Mad Strongholds / Journals",
+        "path":  "modules/mad-strongholds/packs/mad-strongholds-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-strongholds-mad-strongholds-maps",
+        "label":  "The MAD Cartographer / Mad Strongholds / Maps",
+        "path":  "modules/mad-strongholds/packs/mad-strongholds-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-swamps-mad-swamps-journals",
+        "label":  "The MAD Cartographer / Mad Swamps / Journals",
+        "path":  "modules/mad-swamps/packs/mad-swamps-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-swamps-mad-swamps-maps",
+        "label":  "The MAD Cartographer / Mad Swamps / Maps",
+        "path":  "modules/mad-swamps/packs/mad-swamps-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-taverns-mad-taverns-actors",
+        "label":  "The MAD Cartographer / Mad Taverns / Actors",
+        "path":  "modules/mad-taverns/packs/mad-taverns-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-taverns-mad-taverns-journals",
+        "label":  "The MAD Cartographer / Mad Taverns / Journals",
+        "path":  "modules/mad-taverns/packs/mad-taverns-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-taverns-mad-taverns-maps",
+        "label":  "The MAD Cartographer / Mad Taverns / Maps",
+        "path":  "modules/mad-taverns/packs/mad-taverns-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-tropics-mad-tropics-actors",
+        "label":  "The MAD Cartographer / Mad Tropics / Actors",
+        "path":  "modules/mad-tropics/packs/mad-tropics-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-tropics-mad-tropics-journals",
+        "label":  "The MAD Cartographer / Mad Tropics / Journals",
+        "path":  "modules/mad-tropics/packs/mad-tropics-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-tropics-mad-tropics-maps",
+        "label":  "The MAD Cartographer / Mad Tropics / Maps",
+        "path":  "modules/mad-tropics/packs/mad-tropics-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-twilight-mad-twilight-journals",
+        "label":  "The MAD Cartographer / Mad Twilight / Journals",
+        "path":  "modules/mad-twilight/packs/mad-twilight-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-twilight-mad-twilight-maps",
+        "label":  "The MAD Cartographer / Mad Twilight / Maps",
+        "path":  "modules/mad-twilight/packs/mad-twilight-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-urbanext-mad-urbanext-actors",
+        "label":  "The MAD Cartographer / Mad Urbanext / Actors",
+        "path":  "modules/mad-urbanext/packs/mad-urbanext-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-urbanext-mad-urbanext-journals",
+        "label":  "The MAD Cartographer / Mad Urbanext / Journals",
+        "path":  "modules/mad-urbanext/packs/mad-urbanext-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-urbanext-mad-urbanext-maps",
+        "label":  "The MAD Cartographer / Mad Urbanext / Maps",
+        "path":  "modules/mad-urbanext/packs/mad-urbanext-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-vampirehunters-mad-vampirehunters-actors",
+        "label":  "The MAD Cartographer / Mad Vampirehunters / Actors",
+        "path":  "modules/mad-vampirehunters/packs/mad-vampirehunters-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-vampirehunters-mad-vampirehunters-items",
+        "label":  "The MAD Cartographer / Mad Vampirehunters / Items",
+        "path":  "modules/mad-vampirehunters/packs/mad-vampirehunters-items",
+        "type":  "Item",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-vampirehunters-mad-vampirehunters-journals",
+        "label":  "The MAD Cartographer / Mad Vampirehunters / Journals",
+        "path":  "modules/mad-vampirehunters/packs/mad-vampirehunters-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-vampirehunters-mad-vampirehunters-maps",
+        "label":  "The MAD Cartographer / Mad Vampirehunters / Maps",
+        "path":  "modules/mad-vampirehunters/packs/mad-vampirehunters-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-wildwoods-mad-wildwoods-journals",
+        "label":  "The MAD Cartographer / Mad Wildwoods / Journals",
+        "path":  "modules/mad-wildwoods/packs/mad-wildwoods-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-wildwoods-mad-wildwoods-maps",
+        "label":  "The MAD Cartographer / Mad Wildwoods / Maps",
+        "path":  "modules/mad-wildwoods/packs/mad-wildwoods-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-worldwonders-mad-worldwonders-actors",
+        "label":  "The MAD Cartographer / Mad Worldwonders / Actors",
+        "path":  "modules/mad-worldwonders/packs/mad-worldwonders-actors",
+        "type":  "Actor",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-worldwonders-mad-worldwonders-journals",
+        "label":  "The MAD Cartographer / Mad Worldwonders / Journals",
+        "path":  "modules/mad-worldwonders/packs/mad-worldwonders-journals",
+        "type":  "JournalEntry",
+        "system":  "dnd5e"
+    },
+    {
+        "name":  "mad-worldwonders-mad-worldwonders-maps",
+        "label":  "The MAD Cartographer / Mad Worldwonders / Maps",
+        "path":  "modules/mad-worldwonders/packs/mad-worldwonders-maps",
+        "type":  "Scene",
+        "system":  "dnd5e"
+    }
+]
+
 }

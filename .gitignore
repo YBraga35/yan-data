@@ -1,0 +1,22 @@
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração de IDEs e editores
+.idea/
+.vscode/
+
+# Dependências de desenvolvimento (não aplicável agora, mas boa prática)
+node_modules/
+package-lock.json
+*.lock
+
+# Arquivos de build (não aplicável agora, mas boa prática)
+dist/
+
+# Logs do Foundry
+logs/
+
+# NÃO ignore a pasta /packs no módulo de dados.
+# Os arquivos.db são a "fonte da verdade" para o conteúdo do compêndio
+# neste fluxo de trabalho.
