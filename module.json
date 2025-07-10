@@ -1,0 +1,58 @@
+{
+  "id": "yan-data",
+  "title": "Yan's Curated Data",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "levels",
+        "type": "module"
+      },
+      {
+        "id": "betterroofs",
+        "type": "module"
+      },
+      {
+        "id": "wall-height",
+        "type": "module"
+      },
+      {
+        "id": "token-attacher",
+        "type": "module"
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module"
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module"
+      },
+      {
+        "id": "scene-packer",
+        "type": "module"
+      },
+      {
+        "id": "socketlib",
+        "type": "module"
+      },
+      {
+        "id": "tile-scroll",
+        "type": "module"
+      }
+    ]
+  },
+  "description": "Compêndios de dados para aventuras, incluindo atores, cenas e itens dos criadores The Mad Cartographer, DMDave e TomCartos. Requer o módulo 'Yan's Curated Assets'",
+  "authors": [
+    {
+      "name": "Yan Braga",
+      "email": "dungeonmasteryan@gmail.com",
+      "url": "https://github.com/YBraga35",
+      "discord": "yan_braga35"
+    }
+  ]
+}
